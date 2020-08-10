@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # All queries to the Telegram Bot API must be served over HTTPS 
 # and need to be presented in this form: https://api.telegram.org/bot<token>/METHOD_NAME
 
@@ -6,7 +8,7 @@
 import requests
 import json
 
-MY_TOKEN = "<token>"
+MY_TOKEN = "1346698532:AAEERcBd6Z4xW0-sqDLLd3bawF_yG5Icc9k"
 
 
 # Framework
@@ -32,7 +34,7 @@ def send_message(msg, chat_id):
 
 
 def word_counter(msg):
-    if msg == None:
+    if not msg:
         return 0
     return len(msg.split())
 
