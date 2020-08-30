@@ -8,7 +8,7 @@
 import requests
 import json
 
-MY_TOKEN = "1346698532:AAEERcBd6Z4xW0-sqDLLd3bawF_yG5Icc9k"
+MY_TOKEN = "<token>"
 
 
 # Framework
